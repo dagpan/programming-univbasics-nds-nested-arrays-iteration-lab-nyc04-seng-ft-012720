@@ -12,7 +12,7 @@
 
 
 
-def join_ingredients(array1 = [["Red_sauce", "White_Sauce"], ["Peppers", "Mushrooms"], ["Pineapple", "Anchovies"], ["Ham", "Bacon"]])
+def join_ingredients(array1 = [["pepperoni", "sausage"], ["green olives", "green peppers"], ["onions", "Anchovies"], ["Ham", "Bacon"]])
   #
   #
   #
