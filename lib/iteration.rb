@@ -11,8 +11,8 @@ def join_ingredients(array1 = [["pepperoni", "sausage"], ["green olives", "green
   row = 0
   while row < array1.length
         food = 0
-        element_1 = ""
-        element_2 = ""
+        element_1 = " "
+        element_2 = " "
         while food < array1[row].length 
               array1[row][food] = element_1
               food += 1
