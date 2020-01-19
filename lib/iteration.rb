@@ -53,12 +53,17 @@ def total_even_pairs(array1 = [[4,8], [39,21], [16,60], [345,234]])
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
-
-
-
-
-
-
+  sum = 0
+  row = 0
+  while row < array1.length
+        if array1[row][0] && array1[row][1].even
+           sum_1 = 0
+           sum_1 = array1[row][0] + array1[row][1]
+           sum = sum + sum_1
+        end
+        row += 1
+  end
+  sum
 end
 
 
