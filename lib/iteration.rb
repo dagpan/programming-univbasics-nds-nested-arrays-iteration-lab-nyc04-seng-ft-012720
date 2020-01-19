@@ -56,7 +56,7 @@ def total_even_pairs(array1 = [[4,8], [39,21], [16,60], [345,234]])
   sum = 0
   row = 0
   while row < array1.length
-        if array1[row][0].even && array1[row][1].even
+        if array1[row][0].even? && array1[row][1].even?
            sum_1 = 0
            sum_1 = array1[row][0] + array1[row][1]
            sum = sum + sum_1
