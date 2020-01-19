@@ -21,7 +21,7 @@ def join_ingredients(src = [["Red_sauce", "White_Sauce"], ["Peppers", "Mushrooms
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   array1 = ["I love #{src[0][0]} and #{src[0][1]} on my pizza", "I love #{src[1][0]} and #{src[1][1]} on my pizza", "I love #{src[2][0]} and #{src[2][1]} on my pizza", "I love #{src[3][0]} and #{src[3][1]} on my pizza"]
-  return array1
+  array1
 end
 
 def find_greater_pair(src)
