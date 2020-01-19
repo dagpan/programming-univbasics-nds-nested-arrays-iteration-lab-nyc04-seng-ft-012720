@@ -39,8 +39,6 @@ def find_greater_pair(array1 = [[4,8], [39,21], [16,60], [345,234]])
   row = 0
   while row < array1.length
         array1[row].sort!
-#       greater_number = array1[row][-1]
-#       array1[row] = greater_number
         array1[row] = array1[row][-1]
         row += 1
   end
