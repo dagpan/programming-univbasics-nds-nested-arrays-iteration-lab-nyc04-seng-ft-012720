@@ -10,15 +10,19 @@
 def join_ingredients(array1 = [["pepperoni", "sausage"], ["green olives", "green peppers"], ["onions", "pineapple"]])
   row = 0
   while row < array1.length
-        food = 0
+#        food = 0
         element_1 = " "
         element_2 = " "
-        while food < array1[row].length 
-              array1[row][food] = element_1
-              food += 1
-              array1[row][food] = element_2
-              array1[row] = "I love #{element_1} and #{element_2} on my pizza"
-        end
+        array1[row][0] = element_1
+#        food += 1
+        array1[row][1] = element_2
+        array1[row] = "I love #{element_1} and #{element_2} on my pizza"
+#        while food < array1[row].length 
+#              array1[row][food] = element_1
+#              food += 1
+#              array1[row][food] = element_2
+#              array1[row] = "I love #{element_1} and #{element_2} on my pizza"
+#        end
         row += 1
   end
   array1
