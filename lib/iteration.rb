@@ -34,6 +34,8 @@ def join_ingredients(array1 = [])
   row = 0
   while row < array1.length
         food = 0
+        food1 = ""
+        food2 = ""
         while food < array1[row].length 
               array1[row][food] = food1
               array1[row][(food + 1)] = food2
