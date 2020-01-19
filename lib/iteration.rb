@@ -26,7 +26,13 @@ def join_ingredients(array1 = [["Red_sauce", "White_Sauce"], ["Peppers", "Mushro
   #
   #
   #
-  food1 = 
+  row = 0
+  while row < array1.length
+     do
+        food = 0
+        while food < array1[row].length 
+           do
+              array1[row][food] = "I love #{array1[row][food]}"
   food2 = src[0][1]
   food3 = src[1][0]
   food4 = src[1][1]
