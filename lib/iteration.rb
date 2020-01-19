@@ -22,23 +22,13 @@ def join_ingredients(src = [["Red_sauce", "White_Sauce"], ["Peppers", "Mushrooms
   # As such, there should be a new String for each inner array, or pair
   food1 = src[0][0]
   food2 = src[0][1]
-  food1 = src[1][0]
-  food1 = src[1][1]
-  food1 = src[0][0]
-  food1 = src[0][0]
-  food1 = src[0][0]
-  food1 = src[0][0]
-  food1 = src[0][0]
-  food1 = src[0][0]
-  food1 = src[0][0]
-  food1 = src[0][0]
-  
-  
-  
-  
-  
-  
-  array1 = ["I love #{src[0][0]} and #{src[0][1]} on my pizza", "I love #{src[1][0]} and #{src[1][1]} on my pizza", "I love #{src[2][0]} and #{src[2][1]} on my pizza", "I love #{src[3][0]} and #{src[3][1]} on my pizza"]
+  food3 = src[1][0]
+  food4 = src[1][1]
+  food5 = src[2][0]
+  food6 = src[2][1]
+  food7 = src[3][0]
+  food8 = src[3][1]
+  array1 = ["I love food1 and #{src[0][1]} on my pizza", "I love #{src[1][0]} and #{src[1][1]} on my pizza", "I love #{src[2][0]} and #{src[2][1]} on my pizza", "I love #{src[3][0]} and #{src[3][1]} on my pizza"]
   array1
 end
 
