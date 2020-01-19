@@ -39,8 +39,10 @@ def find_greater_pair(array1 = [[4,8], [39,21], [16,60], [345,234]])
   row = 0
   while row < array1.length
         food = 0
-        array1[row] = "I love #{array1[row][0]} and #{array1[row][1]} on my pizza"
         while food < array1[row].length
+              greater_number = 0
+              array1[row].max = greater_number
+              rray1[row][0]} and #{array1[row][1]} on my pizza"
               
               array1[row] = "I love #{element_1} and #{element_2} on my pizza"
               food += 1
