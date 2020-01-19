@@ -28,7 +28,7 @@ def join_ingredients(src = [["Red_sauce", "White_Sauce"], ["Peppers", "Mushrooms
   food6 = src[2][1]
   food7 = src[3][0]
   food8 = src[3][1]
-  array1 = ["I love food1 and #{src[0][1]} on my pizza", "I love #{src[1][0]} and #{src[1][1]} on my pizza", "I love #{src[2][0]} and #{src[2][1]} on my pizza", "I love #{src[3][0]} and #{src[3][1]} on my pizza"]
+  array1 = ["I love #{food1} and #{food2} on my pizza", "I love #{food3} and #{food4} on my pizza", "I love #{food5} and #{food6} on my pizza", "I love #{food7} and #{food8} on my pizza"]
   array1
 end
 
