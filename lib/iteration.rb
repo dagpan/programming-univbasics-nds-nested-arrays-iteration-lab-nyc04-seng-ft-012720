@@ -38,8 +38,8 @@ def find_greater_pair(array1 = [[4,8], [39,21], [16,60], [345,234]])
   # that are in the inner Arrays
   row = 0
   while row < array1.length
-        greater_number = 0
-        array1[row].max = greater_number
+#        greater_number = 0
+        array1[row].sort!
 #        array1[row].max == array1[row]
         row += 1
   end
