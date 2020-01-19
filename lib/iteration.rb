@@ -21,6 +21,17 @@ def join_ingredients(src = [["Red_sauce", "White_Sauce"], ["Peppers", "Mushrooms
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   food1 = src[0][0]
+  food2 = src[0][1]
+  food1 = src[1][0]
+  food1 = src[1][1]
+  food1 = src[0][0]
+  food1 = src[0][0]
+  food1 = src[0][0]
+  food1 = src[0][0]
+  food1 = src[0][0]
+  food1 = src[0][0]
+  food1 = src[0][0]
+  food1 = src[0][0]
   
   
   
