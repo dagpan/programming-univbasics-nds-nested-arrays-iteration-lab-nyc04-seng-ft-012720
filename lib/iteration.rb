@@ -27,7 +27,6 @@
 
 
 def join_ingredients(array1 = [])
-
   array1 = [
     ["pepperoni", "sausage"], 
     ["green olives", "green peppers"], 
